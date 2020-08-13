@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+h1 , h4{
+    text-align: center;
+}
+
+.header-text {
+    padding-top: 50px;
+}
+
+.form-controller {
+   display: block;
+   text-align: center;
+}

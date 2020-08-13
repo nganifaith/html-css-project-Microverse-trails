@@ -1,15 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
 
-  <body>
-    <h1>Hello World, We are software developers!</h1>
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <script  src="js/index.js"></script>
-  </body>
+<body>
+  <div class="page-container">
+    <div class="header-text">
+      <h1>freeCodeCamp Survey Form</h1>
+      <h4><i>Thank you for taking the time to help us improve the platform</i></h4>
+      <div class="form-controller">
+        <form>
+          <div>
+            <label for="fname">Name</label><br>
+            <input type="text" placeholder="Enter your name">
+          </div>
+          <div>
+            <label for="fname">Email</label><br>
+            <input type="text" placeholder="Enter your email address">
+          </div>
+          <div>
+            <label for="fname">Age (optional)</label><br>
+            <input type="text" placeholder="Age">
+          </div>
+          <div>
+            <label for="cars">Which option best describes your current role?</label><br>
+            <select name="cars" id="cars" form="carform" placeholder="Select current role">
+              <option disabled selected value>Select current role</option>
+              <option value="volvo">Student</option>
+              <option value="saab">Full time Job</option>
+              <option value="opel">Full time learner</option>
+              <option value="audi">Prefer not to say</option>
+              <option value="audi">Others</option>
+            </select>
+          </div>
+          <div>
+            <label for="fname">Would you recommend freeCodeCamp to a friend?</label><br>
+            <input type="radio" id="definitely" name="role" value="definitely">
+            <label for="male">Definitely</label><br>
+            <input type="radio" id="maybe" name="role" value="maybe">
+            <label for="female">Maybe</label><br>
+            <input type="radio" id="not-sure" name="role" value="not sure">
+            <label for="other">Not sure</label>
+          </div>
+
+          <div>
+            <label for="cars">What is your favorite feature of freeCodeCamp?</label><br>
+            <select name="cars" id="cars" form="carform" placeholder="Select current role">
+              <option disabled selected value>Select an option</option>
+              <option value="volvo">Challenges</option>
+              <option value="saab">Projects</option>
+              <option value="opel">Community</option>
+              <option value="audi">Open source</option>
+            </select>
+          </div>
+          <div>
+            <label for="">What would you like to see improved? (Check all that apply) </label><br>
+            <input type="checkbox" id="vehicle1" name="" value="Bike">
+            <label for="vehicle1"> Front-end Projects </label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Back-end Projects</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Data Visualization</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Challenges</label><br>
+            <input type="checkbox">
+            <label for=""> Open Source Community</label><br>
+            <input type="checkbox" name="" id="">
+            <label for="">Gitter help rooms</label><br>
+            <input type="checkbox" name="" id="">
+            <label for=""> Videos</label><br>
+            <input type="checkbox" name="" id="">
+            <label for="">City Meetups</label><br>
+            <input type="checkbox" name="" id="">
+            <label for="">Wiki</label><br>
+            <input type="checkbox" name="" id="">
+            <label for="">Forum</label><br>
+            <input type="checkbox" name="" id="">
+            <label for="">Additional Courses</label><br>
+            <input type="checkbox" name="" id="">
+          </div>
+          <div>
+            <label for="">Any comments or suggestions? </label><br>
+            <textarea name="message" rows="10" cols="30">
+              Enter your comment here...
+              </textarea>
+          </div>
+          <div>
+            <button type="button">Submit</button>
+          </div>
+        </form>
+      </div>
+      </form>
+
+
+    </div>
+  </div>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
 </html>
